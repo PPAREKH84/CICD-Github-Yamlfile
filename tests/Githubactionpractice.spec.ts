@@ -31,4 +31,5 @@ test.describe('Github action practice-5',()=>{
         await page.goto('https://www.google.com/'); 
         await expect(page).toHaveTitle(/Google/);
         console.log('This is my sixth github action practice');
-    })          
+    })
+})
